@@ -1,0 +1,19 @@
+/* LOGO */
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+
+.header .logo {
+    margin-right: 85px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+/* BLACK header logo */
+.logo-studio-color {
+    color: #000000;
+}

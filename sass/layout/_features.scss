@@ -1,0 +1,31 @@
+.features-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features-list-item .img-wrapper {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
+    background-color: var(--secondary-bg-color);
+    border-radius: 4px;
+}
+
+.features-list-item-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--primary-title-text-color);
+}
+
+.features-list-item-desc {
+    font-weight: 400;
+    line-height: 1.71;
+}
