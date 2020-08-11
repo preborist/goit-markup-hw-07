@@ -1,19 +1,27 @@
 /* LOGO */
 .logo {
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--accent-color);
-}
+    color: $accent-color;
 
-.header .logo {
-    margin-right: 85px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+    &-studio-color {
+        color: #000000;
+    }
 
-/* BLACK header logo */
-.logo-studio-color {
-    color: #000000;
+    &-studio-color.white {
+        color: $secondary-title-text-color;
+    }
+
+    .header & {
+        margin-right: 85px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .footer & {
+        display: block;
+        margin-bottom: 20px;
+    }
 }

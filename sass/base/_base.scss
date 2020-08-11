@@ -9,12 +9,12 @@ html {
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: $primary-font;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    background-color: var(--primary-bg-color);
+    color: $primary-text-color;
+    background-color: $primary-bg-color;
 }
 
 h1,

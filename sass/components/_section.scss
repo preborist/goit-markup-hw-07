@@ -1,6 +1,10 @@
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &.team {
+        background-color: $secondary-bg-color;
+    }
 }
 
 .section-title {
@@ -9,5 +13,5 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--primary-title-text-color);
+    color: $primary-title-text-color;
 }

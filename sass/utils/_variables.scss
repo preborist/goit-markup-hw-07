@@ -8,16 +8,17 @@
 /* акцент #2196F3 */
 /* цвет иконок #afb1b8 */
 
-:root {
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --primary-text-color: #757575;
-    --primary-title-text-color: #212121;
-    --secondary-title-text-color: #ffffff;
-    --primary-bg-color: #ffffff;
-    --secondary-bg-color: #f5f4fa;
-    --accent-color: #2196f3;
-    --primary-icon-color: #afb1b8;
-    --transition-time: 250ms;
-    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+$primary-font: 'Roboto',
+sans-serif;
+$secondary-font: 'Raleway',
+sans-serif;
+$primary-text-color: #757575;
+$primary-title-text-color: #212121;
+$secondary-title-text-color: #ffffff;
+$primary-bg-color: #ffffff;
+$secondary-bg-color: #f5f4fa;
+$accent-color: #2196f3;
+$primary-icon-color: #afb1b8;
+$transition-time: 250ms;
+$cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
